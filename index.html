@@ -1,0 +1,131 @@
+<!--Declaracion de tipo de archivo-->
+<!DOCTYPE html>
+<!--Documento Raiz-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apps de Gatos</title>
+   <link href="style.css" rel="stylesheet">
+    <link href="link rel="preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Crear encabezado-->
+<H1>¡Hola, mundo!</H1><!--Nivel mas grande de encabezado-->
+ <H2>¡Hola, mundo!</H2><!--Etiqueta de apertura + contenido + etiqueta de cierre-->
+ <h3>¡Hola, mundo!</h3>
+ <h4>¡Hola, mundo!</h4>
+ <h5>¡Hola, mundo!</h5>
+ <h6>¡Hola, mundo!</h6>
+ <p>Cada 8 de 10 gatos comen whiskas</p>
+ <p>Nombre cientifico: Felis Catus</p>
+ <p>Los gatos hacen unos 100 sonidos</p>
+ <p>Son los animales con mayor oido</p>
+ <!--img = image, scr = source-->
+ <img src="https://www.hogarmania.com/archivos/202207/gato-negro-1280x720x80xX-1.jpg" alt="gatito negro">
+ <img src="imagenes/lasagna.jpg" alt="lasagna"><!--imagen desde nuestro dispositivo-->
+ <!--Crear enlaces externos-->
+ <p>En este link <a href="https://bit.ly/3zh61yu" target="_blank" rel="noopener noreferrer">puedes ver mas imagenes de gatos.</a></p>
+ <hr> <!--Etiqueta hr = Horizontal Rule-->
+
+        <h3>Listas de gatos</h3>
+
+        <div> <!--Elemento div-->
+            <p>Cosas que los gatos <strong> aman </strong>:</p> <!--strong para hacer la letra negrita-->
+            <!--em para hacer la letra cursiva-->
+            <p><em>Listas hechas por Ximena Saldaña</em></p>
+            <!--Listas no ordenadas-->
+            <!--ul = unordered list-->
+            <ul>
+                <li>Cajas</li> <!--li = list item-->
+                <li>Lasagna</li>
+                <li>Whiskas</li>
+            </ul>
+            <img src="imagenes\lasagna.jpg" alt="lasagna"> <!--imagen desde nuestro dispositivo-->
+
+            <p>Cosas que los gatos <strong>odian</strong>:</p>
+            <!--Listas ordenadas-->
+            <ol> <!--ol = ordered list-->
+                <li>Baños</li> <!--li = list item-->
+                <li><s>Perros</s></li> <!--Etiqueta 's' para texto tachado-->
+                <li>Que les toquen la cola</li>
+            </ol>
+        </div>
+    <img src="imagenes/gatito.jpg" alt="gatito"> <!--imagen desde nuestro dispositivo-->
+
+    <!--Crear enlaces internos / Enlaces a Secciones Internas-->
+
+    <a href="#parrafo-1">Párrafo 1</a>
+    <a href="#parrafo-2">Párrafo 2</a>
+    <a href="#parrafo-3">Párrafo 3</a>
+    <a href="#parrafo-4">Parráfo 4</a>
+
+    <h3 id="parrafo-1">Párrafo 1</h3>
+
+    <p>Raza de los gatos domesticos</p>
+
+    <p>Los gatos domésticos, sea cual sea su raza, son todos miembros de una misma especie. </p>
+
+    <h3 id="parrafo-2">Párrafo 2</h3>
+    <p>Al igual que sus parientes salvajes, los gatos domésticos son cazadores naturales capaces de acechar presas y atacarlas con garras y dientes afilados. Son particularmente eficaces de noche, cuando sus ojos reflectantes les permiten ver mejor gran parte de sus presas. Los gatos también poseen un oído muy agudo.  <em>
+
+    <h3 id="parrafo-3">Párrafo 3</h3>
+    <p>Los gatos se comunican marcando árboles, postes o muebles con sus garras o con su orina. Dejar su rastro es el modo de informar a otros del alcance de su territorio. Los gatos domésticos emplean un repertorio vocal que se extiende desde un ronroneo hasta un chillido.</p>
+
+    <h3 id="parrafo-4">Párrafo 4</h3>
+    <p>La dieta de los gatos domésticos se ha mantenido carnívora, por ello han desarrollado un intestino apropiado para digerir la carne cruda. También conservan la lengua áspera que puede ayudarlos a limpiar hasta el último bocado de un hueso de animal (y acicalarse a sí mismos). No obstante, sus dietas varían con las golosinas que les ofrecen los humanos y pueden complementarse con los propios trofeos de caza.</p>
+
+        <img src="imagenes/gatito.png" alt="gatito"> <!--imagen desde nuestro dispositivo-->
+        <!--Enlaces con imágenes-->
+        <a href="https://www.hogarmania.com/mascotas/cinco-razones-para-adoptar-gato-negro.html" target="_blank"><img
+            src="https://bit.ly/3N6uSMy" alt="gatito negro"></a>
+
+    <img src="imagenes/lasagna.jpg" alt="lasagna">
+
+    <!--Crear enlaces con #. Enlaces muertos o dead links-->
+    <p>Visita nuestro <a href="#" rel="noopener noreferrer">nuevo sitio web aquí</a></p>
+
+    <!--Formulario-->
+    <form action="/enviar-respuesta">
+        <!--Texto y botón enviar-->
+        <input type="text" placeholder="URL de la foto de tu gato" required>
+        <br>
+        <button type="submit">Enviar</button>
+
+        <!--Botones de radio-->
+        <p>¿Tu gato es cachorro o adulto?</p>
+        <label for="cachorro">
+            <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked>Cachorro
+        </label>
+        <br>
+        <label for="adulto">
+            <input id="adulto" type="radio" value="adulto" name="cachorro-adulto">Adulto
+        </label>
+        <br>
+        <!--Casillas de verificación-->
+        <p>¿Qué tipo de gato es el tuyo?</p>
+        <label for="carinoso">
+            <input id="carinoso" type="checkbox" value="carinoso" name="personalidad" checked> Cariñoso
+        </label>
+        <br>
+        <label for="perezoso">
+            <input id="perezoso" type="checkbox" value="perezoso" name="personalidad"> Perezoso
+        </label>
+        <br>
+        <label for="energico">
+            <input id="energico" type="checkbox" value="energico" name="personalidad"> Enérgico
+        </label>
+        <br>
+    </form>
+</main>
+<!--pie de página-->
+<footer>
+    <!--Etiqueta small para que el pie de página se vea más pequeño-->
+    <p><small>derechos de autor - <a href="https://tecnolochicas.mx/" target="_blank">Ximena Saldaña</a></small>
+    </p>
+</footer>
+</body>
+</html>
